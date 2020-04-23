@@ -1,0 +1,79 @@
+.container {
+  max-width: 1310px;
+}
+
+.orange {
+  background-color: #f72210;
+}
+
+.tittle-logo {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.middle-logo {
+  position: absolute;
+  top: 10px;
+}
+
+.head-container,
+.heading-info {
+  position: relative;
+}
+
+.local-info {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.login-info {
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.subscribe {
+  background-color: white;
+  color: #f72210;
+}
+
+.container .heading-info .container div {
+}
+
+.main-nav-bar {
+}
+
+@media (max-width: 991px) {
+  .time-date {
+    display: none;
+  }
+
+  .tittle-logo {
+    font-size: 25px;
+  }
+
+  .middle-logo {
+     top: 10px;
+     left: 10px;
+  }
+
+  .local-info {
+    top: 20px;
+    left: 150px;
+  }
+
+  .login-info {
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+  }
+
+  .head-container {
+    position: relative
+  }
+
+  .main-nav-bar {
+    position: absolute;
+    top: 3px;
+    right: -5px;
+  }
+}
