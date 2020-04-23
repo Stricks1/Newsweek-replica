@@ -27,6 +27,11 @@
   left: 30px;
 }
 
+.place-weather {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 .login-info {
   font-weight: bold;
   margin-top: 1.5rem;
@@ -40,7 +45,42 @@
 .container .heading-info .container div {
 }
 
-.main-nav-bar {
+.main-menu-list {
+  font-weight: bold;
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.main-menu-list li {
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: center;
+  align-self: center;
+  padding-top: 5px;
+  margin: 10px 0;
+  border-right: 1px solid #d9d9d9;
+}
+
+.main-menu-list li a {
+  color: black;
+}
+
+.main-menu-list .last-items {
+  border-right: none;
+} 
+
+.main-menu-list li input {
+  border: none;
+}
+
+.main-menu-list a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.menu-bar-toggle {
+  display: none;
 }
 
 @media (max-width: 991px) {
@@ -64,16 +104,60 @@
 
   .login-info {
     margin-top: 0.2rem;
-    margin-right: 2rem;
   }
 
   .head-container {
-    position: relative
+    position: relative;
+  }
+
+  .heading-info {
+    padding-left: 110px;
   }
 
   .main-nav-bar {
     position: absolute;
     top: 3px;
     right: -5px;
+  }
+
+  .main-menu-list{
+    display: none;
+  }
+
+  .menu-bar-toggle {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    color: #fb9a94;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .city-country {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .place-weather {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .login-info i {
+    display: none;
+  }
+
+  .login-info {
+    margin-right: 0;
+    font-size: 0.8rem;
+  }
+  
+  .menu-bar-toggle {
+    font-size: 1rem;
   }
 }
