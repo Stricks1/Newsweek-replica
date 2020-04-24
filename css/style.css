@@ -95,7 +95,7 @@
 
 .main-menu-list::before {
   position: absolute;
-  top: 95px;
+  top: -16px;
   right: 0; 
   content: "";
   display: block;
