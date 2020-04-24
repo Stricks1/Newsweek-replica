@@ -141,6 +141,25 @@ main .text-muted {
   width: 100%;
 }
 
+.opinion-section a{
+  color: black;
+  font-size: 0.9rem;
+}
+
+.opinion-section a:hover{
+  color: #f72210;
+  text-decoration: none;  
+}
+
+.opinion-section p {
+  font-size: 0.75rem;
+}
+
+.rounded-circle {
+  width: 63px;
+  height: 63px;
+}
+
 @media (min-width: 481px) {
 
   .login-info {
