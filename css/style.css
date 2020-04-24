@@ -16,7 +16,6 @@
   top: 10px;
 }
 
-.head-container,
 .heading-info {
   position: relative;
 }
@@ -83,6 +82,11 @@
   display: none;
 }
 
+main {
+  height: 5000px;
+  background-color: palegreen;
+}
+
 @media (max-width: 991px) {
   .time-date {
     display: none;
@@ -106,9 +110,9 @@
     margin-top: 0.2rem;
   }
 
-  .head-container {
+  /* .head-container {
     position: relative;
-  }
+  } */
 
   .heading-info {
     padding-left: 110px;
