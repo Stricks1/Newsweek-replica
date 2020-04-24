@@ -6,6 +6,15 @@
   background-color: #f72210;
 }
 
+.text-black,
+.main-menu-list li a,
+.main-menu-list .last-item a:hover,
+.article-title,
+.article-title:hover,
+.opinion-section a {
+  color: black;
+}
+
 .orange-text {
   color: #f72210;
 }
@@ -64,10 +73,6 @@
   color: #f72210;
 }
 
-.main-menu-list li a {
-  color: black;
-}
-
 .main-menu-list a:hover,
 .link-subscribe-2:hover {
   text-decoration: none;
@@ -76,7 +81,6 @@
 
 .main-menu-list .last-item a:hover {
   text-decoration: none;
-  color: black;
 }
 
 .main-nav {
@@ -120,12 +124,10 @@ main .text-muted {
 }
 
 .article-title {
-  color: black;
   font-size: 1.1rem;
 }
 
 .article-title:hover {
-  color: black;
   text-decoration: underline #f72210;
 }
 
@@ -141,8 +143,7 @@ main .text-muted {
   width: 100%;
 }
 
-.opinion-section a{
-  color: black;
+.opinion-section a {
   font-size: 0.9rem;
 }
 
@@ -155,9 +156,33 @@ main .text-muted {
   font-size: 0.75rem;
 }
 
-.rounded-circle {
+.opinion-section .rounded-circle,
+.debate-section .author-img {
   width: 63px;
   height: 63px;
+}
+
+.debate-item-1 {
+  border-top: solid 4px red;
+}
+
+.debate-item-2 {
+  border-top: solid 4px #1c87fb
+}
+
+.author-debate {
+  font-size: 0.8rem;
+}
+
+.debate-section .vs-item {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  line-height: 40px;
+  font-size: 0.8rem;
+}
+
+.debate-section .author-img {
 }
 
 @media (min-width: 481px) {
