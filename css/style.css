@@ -183,6 +183,7 @@ main .text-muted {
 }
 
 .debate-section .author-img {
+  float: right;
 }
 
 @media (min-width: 481px) {
