@@ -133,6 +133,14 @@ main .text-muted {
   font-size: 0.8rem;
 }
 
+.card-img-top {
+  border-radius: 0;
+}
+
+.section-separator {
+  width: 100%;
+}
+
 @media (min-width: 481px) {
 
   .login-info {
