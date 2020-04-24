@@ -6,162 +6,158 @@
   background-color: #f72210;
 }
 
-.tittle-logo {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.middle-logo {
-  position: absolute;
-  top: 10px;
-}
-
-.heading-info {
-  position: relative;
-}
-
-.local-info {
-  position: absolute;
-  top: 15px;
-  left: 30px;
-}
-
-.place-weather {
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
-.login-info {
-  font-weight: bold;
-  margin-top: 1.5rem;
-}
-
-.subscribe {
-  background-color: white;
+.orange-text {
   color: #f72210;
 }
 
-.container .heading-info .container div {
+.small-logo svg {
+  fill: white;
+  width: 132px;
+  height: 20px;
 }
 
-.main-menu-list {
-  font-weight: bold;
-  display: flex;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #f4f5f6;
+.center-logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
 }
 
-.main-menu-list li {
-  font-weight: bold;
-  flex-grow: 1;
-  text-align: center;
-  align-self: center;
-  padding-top: 5px;
-  margin: 10px 0;
-  border-right: 1px solid #d9d9d9;
+.center-logo svg {
+  fill: white;
+  width: 90em;
+  width: 25em;
+}
+
+.arrow-subscribe {
+  display: none;
+}
+
+.head-container {
+  min-width: 20em;
+}
+
+.toggler-menu {
+  min-width: 16em;
+}
+
+.login-info {
+  font-size: 0.8rem;
+}
+
+.weather-temperature {
+  font-size: 0.9rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(251, 154, 148, 1)' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.sign-in:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.subscribe-in:hover{
+  text-decoration: none;
+  color: #f72210;
 }
 
 .main-menu-list li a {
   color: black;
 }
 
-.main-menu-list .last-items {
-  border-right: none;
-} 
-
-.main-menu-list li input {
-  border: none;
-}
-
-.main-menu-list a:hover {
+.main-menu-list a:hover,
+.link-subscribe-2:hover {
   text-decoration: none;
   color: #f72210;
 }
 
-.menu-bar-toggle {
-  display: none;
+.main-menu-list .last-item a:hover {
+  text-decoration: none;
+  color: black;
 }
 
-main {
-  height: 5000px;
-  background-color: palegreen;
+.main-nav {
+  width: 95%;
 }
 
-@media (max-width: 991px) {
-  .time-date {
-    display: none;
-  }
+.link-subscribe,
+.link-subscribe:hover {
+  color: white;
+}
 
-  .tittle-logo {
-    font-size: 25px;
-  }
+.link-subscribe:hover,
+.link-subscribe-2:hover {
+  text-decoration: none;
+}
 
-  .middle-logo {
-     top: 10px;
-     left: 10px;
-  }
+.main-menu-list::before {
+  position: absolute;
+  top: 95px;
+  right: 0; 
+  content: "";
+  display: block;
+  width: 5%;
+  background-color: #f72210;
+  border-left: 0.75rem solid white;
+  border-top: 0.8125rem solid #f72210;
+}
 
-  .local-info {
-    top: 20px;
-    left: 150px;
-  }
+main .text-muted {
+  font: 16/16;
+}
+
+.category-image {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+}
+
+.category-image a:hover{
+  text-decoration: none;
+  color: #f72210;
+}
+
+.article-title {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.article-title:hover {
+  color: black;
+  text-decoration: underline #f72210;
+}
+
+.summary {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 481px) {
 
   .login-info {
-    margin-top: 0.2rem;
+    font-size: 1rem;;
   }
 
-  /* .head-container {
-    position: relative;
-  } */
-
-  .heading-info {
-    padding-left: 110px;
-  }
-
-  .main-nav-bar {
-    position: absolute;
-    top: 3px;
-    right: -5px;
-  }
-
-  .main-menu-list{
-    display: none;
-  }
-
-  .menu-bar-toggle {
+  .arrow-subscribe{
     display: inline-block;
-    font-size: 1.4rem;
-    margin-right: 10px;
-    color: #fb9a94;
+  }
+
+  .subscribe-in {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
-@media (max-width: 640px) {
 
+@media (min-width: 576px) {
   .city-country {
     display: none;
   }
 }
 
-@media (max-width: 575px) {
-
-  .place-weather {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-
-  .login-info i {
-    display: none;
-  }
-
-  .login-info {
-    margin-right: 0;
-    font-size: 0.8rem;
-  }
-  
-  .menu-bar-toggle {
-    font-size: 1rem;
-  }
+@media (min-width: 641px) {
+  .city-country {
+    display: inline-block;
+  } 
 }
