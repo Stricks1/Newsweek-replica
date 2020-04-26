@@ -11,7 +11,9 @@
 .main-menu-list .last-item a:hover,
 .article-title,
 .article-title:hover,
-.opinion-section a {
+.opinion-section a,
+.more-stories-section a,
+.more-stories-section a:hover {
   color: black;
 }
 
@@ -127,11 +129,13 @@ main .text-muted {
   font-size: 1.1rem;
 }
 
-.article-title:hover {
+.article-title:hover,
+.more-stories-section a:hover {
   text-decoration: underline #f72210;
 }
 
-.summary {
+.summary,
+.more-stories-section p {
   font-size: 0.8rem;
 }
 
@@ -184,6 +188,14 @@ main .text-muted {
 
 .debate-section .author-img {
   float: right;
+}
+
+.section-sponsored .sponsored-card {
+  border: 1px solid gray;
+}
+
+.line-height-2 {
+  line-height: 1.1rem;
 }
 
 @media (min-width: 481px) {
