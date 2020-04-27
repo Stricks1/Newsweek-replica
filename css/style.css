@@ -13,8 +13,14 @@
 .article-title:hover,
 .opinion-section a,
 .more-stories-section a,
-.more-stories-section a:hover {
+.more-stories-section a:hover,
+.latest-news-section a {
   color: black;
+}
+
+.latest-news-section a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .orange-text {
@@ -120,14 +126,43 @@ main .text-muted {
   bottom: 0;
 }
 
+.category-image-pandemic {
+  font-size: 0.8rem;
+  background-color: rgba(194, 212, 215, 0.9);
+  bottom: 2px;
+}
+
+.category-image-pandemic:hover{
+  background-color: #393939;
+}
+
+.category-image-pandemic a {
+  color: #272727;
+}
+
+.category-image-pandemic:hover a{
+  text-decoration: none;
+  color: rgb(207, 203, 203);
+}
+
 .category-image a:hover{
   text-decoration: none;
   color: #f72210;
 }
 
-.article-title {
-  font-size: 1.1rem;
+.article-title,
+.heroes-title,
+.travel-title {
+  font-size: 1.2rem;
 }
+
+.heroes-title,
+.travel-title,
+.heroes-title:hover,
+.travel-title:hover {
+  text-decoration: none;
+  color: black;
+} 
 
 .article-title:hover,
 .more-stories-section a:hover {
