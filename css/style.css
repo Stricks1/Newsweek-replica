@@ -126,6 +126,15 @@ main .text-muted {
   bottom: 0;
 }
 
+.magazine-image {
+  background-color: #f72210;
+}
+
+.in-magazine .magazine-image,
+.in-magazine .category-image  {
+  font-size: 0.85rem;
+}
+
 .category-image-pandemic {
   font-size: 0.8rem;
   background-color: rgba(194, 212, 215, 0.9);
@@ -159,7 +168,8 @@ main .text-muted {
 .heroes-title,
 .travel-title,
 .heroes-title:hover,
-.travel-title:hover {
+.travel-title:hover,
+.button-features a:hover {
   text-decoration: none;
   color: black;
 } 
@@ -237,6 +247,14 @@ main .text-muted {
   width: 29px;
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.button-features {
+  background-color: #f4f5f6;
+}
+
+.button-features:hover {
+  background-color: #dbdcdd;
 }
 
 
