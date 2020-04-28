@@ -299,7 +299,7 @@ main .text-muted {
 }
 
 .border-lighter-separator {
-  border-top: 2px solid #f4f5f6; 
+  border-top: 2px solid #f4f5f6;
 }
 
 .social-links {
@@ -327,7 +327,7 @@ main .text-muted {
 }
 
 .instagram i:hover {
-  color: #405de6;;
+  color: #405de6;
 }
 
 .tumblr i:hover {
@@ -347,12 +347,11 @@ main .text-muted {
 }
 
 @media (min-width: 481px) {
-
   .login-info {
-    font-size: 1rem;;
+    font-size: 1rem;
   }
 
-  .arrow-subscribe{
+  .arrow-subscribe {
     display: inline-block;
   }
 
@@ -366,7 +365,6 @@ main .text-muted {
   }
 }
 
-
 @media (min-width: 576px) {
   .city-country {
     display: none;
@@ -376,25 +374,24 @@ main .text-muted {
 @media (min-width: 641px) {
   .city-country {
     display: inline-block;
-  } 
+  }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .sign-in-bg-image {
     height: 160px;
   }
 }
 
 @media (min-width: 768px) {
-
   .third-article,
   .second-article {
     padding-left: 0.5em;
   }
-  
+
   .first-article,
   .second-article {
-    padding-right: 0.5em
+    padding-right: 0.5em;
   }
 
   .sponsored-two {
@@ -414,10 +411,11 @@ main .text-muted {
 
 @media (min-width: 992px) {
   .sign-in-bg-image {
-    min-height: 269px; 
+    min-height: 269px;
     max-height: 317px;
     max-width: 260px;
   }
+
   .magazine-section {
     max-height: 269px;
   }
