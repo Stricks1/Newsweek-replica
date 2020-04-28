@@ -333,6 +333,14 @@ main .text-muted {
   color: #0077b5;
 }
 
+.footer-links {
+  font-size: 0.9rem;
+}
+
+.last-footer-links {
+  left: -0.5rem;
+}
+
 @media (min-width: 481px) {
 
   .login-info {
