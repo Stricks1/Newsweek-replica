@@ -3,7 +3,7 @@
 This project is to build a replica of the news site Newsweek.com using the Bootstrap learning how to use the framework. 
 
 # Large Screen
-![screenshot](./images/Screenshot_fullscreen.jpg)
+![screenshot](./images/Screenshot_fullScreen.jpg)
 
 # Medium Screen
 ![screenshot](./images/Screenshot_mdScreen.jpg)
