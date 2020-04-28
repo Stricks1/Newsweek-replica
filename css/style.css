@@ -39,6 +39,12 @@
   height: 20px;
 }
 
+.logo-footer {
+  fill: #f72210;
+  max-width: 236px;
+  max-height: 36px;
+}
+
 .center-logo {
   position: absolute;
   top: 20%;
@@ -287,6 +293,18 @@ main .text-muted {
 
 .border-lighter-separator {
   border-top: 2px solid #f4f5f6; 
+}
+
+.social-links {
+  font-size: 1.5rem;
+}
+
+.copyright-text {
+  font-size: 0.8rem;
+}
+
+.facebook i:hover {
+  color: #3b5998;
 }
 
 @media (min-width: 481px) {
