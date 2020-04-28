@@ -14,13 +14,19 @@
 .opinion-section a,
 .more-stories-section a,
 .more-stories-section a:hover,
-.latest-news-section a {
+.latest-news-section a,
+.categ-section .categ-small-list a {
   color: black;
 }
 
-.latest-news-section a:hover {
+.latest-news-section a:hover,
+.categ-section .categ-small-list a:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.categ-section .categ-small-list {
+  font-size: 0.95rem;
 }
 
 .orange-text {
@@ -255,6 +261,10 @@ main .text-muted {
 
 .button-features:hover {
   background-color: #dbdcdd;
+}
+
+.category-title {
+  font-size: 1.25rem;
 }
 
 
