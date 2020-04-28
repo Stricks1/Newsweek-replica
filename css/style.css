@@ -303,8 +303,32 @@ main .text-muted {
   font-size: 0.8rem;
 }
 
+.facebook i:hover,
+.twitter i:hover,
+.instagram i:hover,
+.tumblr i:hover,
+.linkedin i:hover {
+  cursor: pointer;
+}
+
 .facebook i:hover {
   color: #3b5998;
+}
+
+.twitter i:hover {
+  color: #1da1f2;
+}
+
+.instagram i:hover {
+  color: #405de6;;
+}
+
+.tumblr i:hover {
+  color: #35465c;
+}
+
+.linkedin i:hover {
+  color: #0077b5;
 }
 
 @media (min-width: 481px) {
