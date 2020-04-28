@@ -6,23 +6,76 @@
   background-color: #f72210;
 }
 
-.text-black,
-.main-menu-list li a,
-.main-menu-list .last-item a:hover,
+.footer-links a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.category-image-pandemic a {
+  color: #272727;
+}
+
 .article-title,
-.article-title:hover,
+.heroes-title,
+.travel-title {
+  font-size: 1.2rem;
+}
+
+.opinion-section a {
+  font-size: 0.9rem;
+}
+
+.text-black,
 .opinion-section a,
 .more-stories-section a,
-.more-stories-section a:hover,
 .latest-news-section a,
-.categ-section .categ-small-list a {
+.main-menu-list li a,
+.more-stories-section a:hover,
+.categ-section .categ-small-list a,
+.article-title,
+.article-title:hover {
   color: black;
+}
+
+.main-menu-list a:hover,
+.link-subscribe-2:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.category-image a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.heroes-title,
+.travel-title,
+.heroes-title:hover,
+.travel-title:hover,
+.button-features a:hover,
+.footer-links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.article-title:hover,
+.more-stories-section a:hover {
+  text-decoration: underline #f72210;
+}
+
+.opinion-section a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .latest-news-section a:hover,
 .categ-section .categ-small-list a:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.main-menu-list .last-item a:hover {
+  color: black;
 }
 
 .categ-section .categ-small-list {
@@ -87,18 +140,12 @@
   font-size: 0.8rem;
 }
 
-.sign-in:hover{
+.sign-in:hover {
   text-decoration: none;
   color: white;
 }
 
-.subscribe-in:hover{
-  text-decoration: none;
-  color: #f72210;
-}
-
-.main-menu-list a:hover,
-.link-subscribe-2:hover {
+.subscribe-in:hover {
   text-decoration: none;
   color: #f72210;
 }
@@ -112,19 +159,21 @@
   color: white;
 }
 
+.subscribe-sec-bottom {
+  font-size: 1.1rem;
+}
+
 .link-subscribe:hover,
 .link-subscribe-2:hover,
-.subscribe-sec-bottom:hover,
 .main-menu-list .last-item a:hover,
-.subscribe-sec-bottom:hover,
-.footer-links a {
+.subscribe-sec-bottom:hover {
   text-decoration: none;
 }
 
 .main-menu-list::before {
   position: absolute;
   top: -16px;
-  right: 0; 
+  right: 0;
   content: "";
   display: block;
   width: 5%;
@@ -147,7 +196,7 @@ main .text-muted {
 }
 
 .in-magazine .magazine-image,
-.in-magazine .category-image  {
+.in-magazine .category-image {
   font-size: 0.85rem;
 }
 
@@ -157,43 +206,8 @@ main .text-muted {
   bottom: 2px;
 }
 
-.category-image-pandemic:hover{
+.category-image-pandemic:hover {
   background-color: #393939;
-}
-
-.category-image-pandemic a {
-  color: #272727;
-}
-
-.category-image-pandemic:hover a{
-  text-decoration: none;
-  color: rgb(207, 203, 203);
-}
-
-.category-image a:hover{
-  text-decoration: none;
-  color: #f72210;
-}
-
-.article-title,
-.heroes-title,
-.travel-title {
-  font-size: 1.2rem;
-}
-
-.heroes-title,
-.travel-title,
-.heroes-title:hover,
-.travel-title:hover,
-.button-features a:hover,
-.footer-links a:hover {
-  text-decoration: none;
-  color: black;
-} 
-
-.article-title:hover,
-.more-stories-section a:hover {
-  text-decoration: underline #f72210;
 }
 
 .summary,
@@ -207,15 +221,6 @@ main .text-muted {
 
 .section-separator {
   width: 100%;
-}
-
-.opinion-section a {
-  font-size: 0.9rem;
-}
-
-.opinion-section a:hover{
-  color: #f72210;
-  text-decoration: none;  
 }
 
 .opinion-section p {
@@ -233,7 +238,7 @@ main .text-muted {
 }
 
 .debate-item-2 {
-  border-top: solid 4px #1c87fb
+  border-top: solid 4px #1c87fb;
 }
 
 .author-debate {
@@ -277,10 +282,6 @@ main .text-muted {
 .category-title,
 .subscribe-title {
   font-size: 1.25rem;
-}
-
-.subscribe-sec-bottom {
-  font-size: 1.1rem;
 }
 
 .subscribe-text {
