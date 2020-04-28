@@ -263,10 +263,19 @@ main .text-muted {
   background-color: #dbdcdd;
 }
 
-.category-title {
+.category-title,
+.subscribe-title {
   font-size: 1.25rem;
 }
 
+..subscribe-sec-bottom {
+  font-size: 1.1rem;
+}
+
+.subscribe-text {
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+}
 
 @media (min-width: 481px) {
 
