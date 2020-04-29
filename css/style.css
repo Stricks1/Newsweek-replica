@@ -1,0 +1,422 @@
+.container {
+  max-width: 1310px;
+}
+
+.orange {
+  background-color: #f72210;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.category-image-pandemic a {
+  color: #272727;
+}
+
+.article-title,
+.heroes-title,
+.travel-title {
+  font-size: 1.2rem;
+}
+
+.opinion-section a {
+  font-size: 0.9rem;
+}
+
+.text-black,
+.opinion-section a,
+.more-stories-section a,
+.latest-news-section a,
+.main-menu-list li a,
+.more-stories-section a:hover,
+.categ-section .categ-small-list a,
+.article-title,
+.article-title:hover {
+  color: black;
+}
+
+.main-menu-list a:hover,
+.link-subscribe-2:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.category-image a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.heroes-title,
+.travel-title,
+.heroes-title:hover,
+.travel-title:hover,
+.button-features a:hover,
+.footer-links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.article-title:hover,
+.more-stories-section a:hover {
+  text-decoration: underline #f72210;
+}
+
+.opinion-section a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.latest-news-section a:hover,
+.categ-section .categ-small-list a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.main-menu-list .last-item a:hover {
+  color: black;
+}
+
+.categ-section .categ-small-list {
+  font-size: 0.95rem;
+}
+
+.orange-text {
+  color: #f72210;
+}
+
+.small-logo svg {
+  fill: white;
+  width: 132px;
+  height: 20px;
+}
+
+.logo-footer {
+  fill: #f72210;
+  max-width: 236px;
+  max-height: 36px;
+}
+
+.center-logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+}
+
+.center-logo svg {
+  fill: white;
+  width: 90em;
+  width: 25em;
+}
+
+.arrow-subscribe {
+  display: none;
+}
+
+.head-container {
+  min-width: 20em;
+}
+
+.toggler-menu {
+  min-width: 16em;
+}
+
+.login-info {
+  font-size: 0.8rem;
+}
+
+.weather-temperature {
+  font-size: 0.9rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(251, 154, 148, 1)' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand span {
+  font-size: 0.8rem;
+}
+
+.sign-in:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.subscribe-in:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.main-nav {
+  width: 95%;
+}
+
+.link-subscribe,
+.link-subscribe:hover {
+  color: white;
+}
+
+.subscribe-sec-bottom {
+  font-size: 1.1rem;
+}
+
+.link-subscribe:hover,
+.link-subscribe-2:hover,
+.main-menu-list .last-item a:hover,
+.subscribe-sec-bottom:hover {
+  text-decoration: none;
+}
+
+.main-menu-list::before {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  content: "";
+  display: block;
+  width: 5%;
+  background-color: #f72210;
+  border-left: 0.75rem solid white;
+  border-top: 0.8125rem solid #f72210;
+}
+
+main .text-muted {
+  font: 16/16;
+}
+
+.category-image {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+}
+
+.magazine-image {
+  background-color: #f72210;
+}
+
+.in-magazine .magazine-image,
+.in-magazine .category-image {
+  font-size: 0.85rem;
+}
+
+.category-image-pandemic {
+  font-size: 0.8rem;
+  background-color: rgba(194, 212, 215, 0.9);
+  bottom: 2px;
+}
+
+.category-image-pandemic:hover {
+  background-color: #393939;
+}
+
+.summary,
+.more-stories-section p {
+  font-size: 0.8rem;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.section-separator {
+  width: 100%;
+}
+
+.opinion-section p {
+  font-size: 0.75rem;
+}
+
+.opinion-section .rounded-circle,
+.debate-section .author-img {
+  width: 63px;
+  height: 63px;
+}
+
+.debate-item-1 {
+  border-top: solid 4px red;
+}
+
+.debate-item-2 {
+  border-top: solid 4px #1c87fb;
+}
+
+.author-debate {
+  font-size: 0.8rem;
+}
+
+.debate-section .vs-item {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  line-height: 40px;
+  font-size: 0.8rem;
+}
+
+.debate-section .author-img {
+  float: right;
+}
+
+.section-sponsored .sponsored-card {
+  border: 1px solid gray;
+}
+
+.line-height-2 {
+  line-height: 1.1rem;
+}
+
+.logo-n {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.button-features {
+  background-color: #f4f5f6;
+}
+
+.button-features:hover {
+  background-color: #dbdcdd;
+}
+
+.category-title,
+.subscribe-title {
+  font-size: 1.25rem;
+}
+
+.subscribe-text {
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+}
+
+.subscribe-span-button:hover {
+  background-color: #de1f0e;
+  cursor: pointer;
+}
+
+.sign-in-bg-image {
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+}
+
+.border-lighter-separator {
+  border-top: 2px solid #f4f5f6;
+}
+
+.social-links {
+  font-size: 1.5rem;
+}
+
+.copyright-text {
+  font-size: 0.8rem;
+}
+
+.facebook i:hover,
+.twitter i:hover,
+.instagram i:hover,
+.tumblr i:hover,
+.linkedin i:hover {
+  cursor: pointer;
+}
+
+.facebook i:hover {
+  color: #3b5998;
+}
+
+.twitter i:hover {
+  color: #1da1f2;
+}
+
+.instagram i:hover {
+  color: #405de6;
+}
+
+.tumblr i:hover {
+  color: #35465c;
+}
+
+.linkedin i:hover {
+  color: #0077b5;
+}
+
+.footer-links {
+  font-size: 0.9rem;
+}
+
+.last-footer-links {
+  left: -0.5rem;
+}
+
+@media (min-width: 481px) {
+  .login-info {
+    font-size: 1rem;
+  }
+
+  .arrow-subscribe {
+    display: inline-block;
+  }
+
+  .subscribe-in {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .navbar-brand span {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .city-country {
+    display: none;
+  }
+}
+
+@media (min-width: 641px) {
+  .city-country {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  .sign-in-bg-image {
+    height: 160px;
+  }
+}
+
+@media (min-width: 768px) {
+  .third-article,
+  .second-article {
+    padding-left: 0.5em;
+  }
+
+  .first-article,
+  .second-article {
+    padding-right: 0.5em;
+  }
+
+  .sponsored-two {
+    max-width: 330px;
+  }
+
+  .sign-in-bg-image {
+    width: 48%;
+    max-width: 191px;
+    height: 189px;
+  }
+
+  .footer-links .border-right-md {
+    border-right: 1px solid #d9d9d9;
+  }
+}
+
+@media (min-width: 992px) {
+  .sign-in-bg-image {
+    min-height: 269px;
+    max-height: 317px;
+    max-width: 260px;
+  }
+
+  .magazine-section {
+    max-height: 269px;
+  }
+}
