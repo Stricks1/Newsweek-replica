@@ -27,6 +27,8 @@ This project is to build a replica of the news site Newsweek.com using the Boots
 
 👤 **Author**
 
+Gabriel Malheiros Silveira
+
 - Github: [@Stricks1](https://github.com/Stricks1)
 - Twitter: [@gandhinomethor](https://twitter.com/gandhinomethor)
 - Linkedin: [Gabriel Silveira](https://linkedin.com/in/gabriel-malheiros-silveira-b6632061/ )
